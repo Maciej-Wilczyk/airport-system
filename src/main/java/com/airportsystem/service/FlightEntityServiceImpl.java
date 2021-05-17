@@ -9,6 +9,7 @@ import com.airportsystem.response.WeightResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.Date;
+import java.util.List;
 
 
 @Service
@@ -68,6 +69,11 @@ public class FlightEntityServiceImpl implements FlightEntityService {
             }
         }
         return new AirportResponse(numberOfFlightsDeparting, numberOfFlightsArriving, numberOfBaggageDeparting, numberOfBaggageArriving);
+    }
+
+    @Override
+    public List<FlightEntity> save(List<FlightEntity> list) {
+        return flightEntityRepository.saveAll(list);
     }
 
 

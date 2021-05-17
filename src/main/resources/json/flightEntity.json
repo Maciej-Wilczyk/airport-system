@@ -1,0 +1,37 @@
+[
+  {
+    "flightId": 0,
+    "flightNumber": 8880,
+    "departureAirportIATACode": "LAX",
+    "arrivalAirportIATACode": "GDN",
+    "departureDate": "2017-10-31T08:35:46-01:00"
+  },
+  {
+    "flightId": 1,
+    "flightNumber": 2356,
+    "departureAirportIATACode": "YYT",
+    "arrivalAirportIATACode": "LEW",
+    "departureDate": "2019-11-18T10:43:12-01:00"
+  },
+  {
+    "flightId": 2,
+    "flightNumber": 5436,
+    "departureAirportIATACode": "YYT",
+    "arrivalAirportIATACode": "KRK",
+    "departureDate": "2017-03-17T09:15:37-01:00"
+  },
+  {
+    "flightId": 3,
+    "flightNumber": 7554,
+    "departureAirportIATACode": "ANC",
+    "arrivalAirportIATACode": "GDN",
+    "departureDate": "2019-09-28T02:43:10-02:00"
+  },
+  {
+    "flightId": 4,
+    "flightNumber": 4197,
+    "departureAirportIATACode": "SEA",
+    "arrivalAirportIATACode": "GDN",
+    "departureDate": "2014-07-08T04:52:40-02:00"
+  }
+]
